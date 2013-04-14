@@ -1,12 +1,24 @@
 <% content_for(:title) { "My super sweet dashboard" } %>
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+    <!-- <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="Protip: You can drag the widgets around!"></div>
+    </li> -->
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="facebook_likes" data-view="Number" data-title="Facebook Likes"></div>
     </li>
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="facebook_likes" data-view="Number" data-title="Facebook Likes" data-moreinfo="In billions"></div>
+      <div data-id="twitter_user_followers" data-view="Number" data-title="Twitter Followers"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="twitter_mentions" data-view="Comments" data-title="Latest Tweets"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="analytics_page_views" data-view="Number" data-title="Pageviews Today"></div>
     </li>
     
     <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">

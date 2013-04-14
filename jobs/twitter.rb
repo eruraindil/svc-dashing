@@ -1,7 +1,7 @@
 require 'net/http'
 require 'json'
 
-search_term = URI::encode('#todayilearned')
+search_term = URI::encode('svc_dosomuch')
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
   http = Net::HTTP.new('search.twitter.com')
