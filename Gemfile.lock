@@ -88,6 +88,5 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
-  sinatra-contrib
   twitter
   xml-simple
