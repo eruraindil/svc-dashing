@@ -7,7 +7,7 @@ require 'openssl'
 
 # Config
 # ------
-twitter_username = ENV['TWITTER_USERNAME'] || 'svc_dosomuch'
+twitter_username = ENV['TWITTER_USERNAME'] || 'eruraindil'
 
 SCHEDULER.every '2m', :first_in => 0 do |job|
   http = Net::HTTP.new("twitter.com", Net::HTTP.https_default_port())

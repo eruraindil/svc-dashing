@@ -1,4 +1,10 @@
 require 'dashing'
+require 'sinatra'
+require 'sinatra/reloader'
+
+configure :development do
+  register Sinatra::Reloader
+end
 
 configure do
   set :auth_token, 'YOUR_AUTH_TOKEN'
